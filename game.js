@@ -156,7 +156,7 @@ y:mouseY
 }
 }
 
-//reset the ball when ball
+//reset the ball when ball crosses over to the edges
 function ballReset(){
 	if(player1Score>=WINING_SCORE || player2Score>=WINING_SCORE){
 		showingWinScreen = true
